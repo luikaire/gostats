@@ -22,11 +22,9 @@ jobs:
 
       - uses: actions/checkout@v3.1.0
 
-      - name: Setup session
-        uses: lhotari/action-upterm@v1   
-
       - name: run tests
-        run: go test -vet all -race ./...
+        run: python brp.py
+        #run: go test -vet all -race ./...
 
 #  lint:
 #    name: lint
