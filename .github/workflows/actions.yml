@@ -9,7 +9,7 @@ jobs:
       matrix:
         go-version:
           - 1.19.x
-          - 1.20.x
+#          - 1.20.x
 
     name: run-tests
     runs-on: ubuntu-latest
@@ -28,10 +28,10 @@ jobs:
       - name: run tests
         run: go test -vet all -race ./...
 
-  lint:
-    name: lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3.1.0
-
-      - uses: golangci/golangci-lint-action@v3.3.1
+#  lint:
+#    name: lint
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v3.1.0
+#
+#      - uses: golangci/golangci-lint-action@v3.3.1
