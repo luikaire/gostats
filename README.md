@@ -1,5 +1,4 @@
 # Gostats [![GoDoc](https://godoc.org/github.com/lyft/gostats?status.svg)](https://godoc.org/github.com/lyft/gostats) [![Build Status](https://github.com/lyft/gostats/actions/workflows/actions.yml/badge.svg?branch=master)](https://github.com/lyft/gostats/actions/workflows/actions.yml)
-
 `gostats` is a Go metrics library with support for Counters, Gauges, and Timers.
 
 ## Installation
