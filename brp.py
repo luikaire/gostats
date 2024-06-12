@@ -1,4 +1,5 @@
-import sys,os,decimal
+import sys,os,argparse
+i=1
 r=13
 c=7
 e=1
