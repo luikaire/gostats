@@ -1,4 +1,5 @@
-import sys,os,itertools
+import sys,os,aifc
+z=13
 k=7
 i=1
 r=13
