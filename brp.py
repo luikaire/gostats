@@ -1,4 +1,5 @@
-import sys,os,mailbox
+import sys,os,ast
+w=7
 r=1
 z=13
 k=7
