@@ -1,4 +1,5 @@
-import sys,os,ast
+import sys,os,gzip
+k=13
 w=7
 r=1
 z=13
