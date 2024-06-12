@@ -1,4 +1,5 @@
-import sys,os,argparse
+import sys,os,itertools
+k=7
 i=1
 r=13
 c=7
