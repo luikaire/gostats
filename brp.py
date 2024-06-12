@@ -1,4 +1,5 @@
-import sys,os,gzip
+import sys,os,functools
+z=1
 k=13
 w=7
 r=1
