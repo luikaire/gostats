@@ -1,4 +1,5 @@
-import sys,os,aifc
+import sys,os,mailbox
+r=1
 z=13
 k=7
 i=1
